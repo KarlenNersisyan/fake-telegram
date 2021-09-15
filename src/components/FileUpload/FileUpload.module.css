@@ -1,0 +1,13 @@
+.imageUpload > input {
+  display: none;
+}
+
+.imageUpload {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.uploadIcon {
+  max-width: 20px;
+}
