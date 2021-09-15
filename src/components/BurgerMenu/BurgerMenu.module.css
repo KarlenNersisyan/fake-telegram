@@ -1,0 +1,42 @@
+.circle {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 40px;
+  margin: 0 10px;
+  transition: 200ms;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  position: relative;
+}
+
+.circle:hover {
+  background: var(--hover-bg-color);
+}
+
+.menuIcon {
+  max-width: 20px;
+}
+
+.menuContent {
+  position: absolute;
+  left: 2%;
+  top: 60px;
+  background: var(--darkGrey-color);
+  box-shadow: 0px 2px 8px 1px rgb(0 0 0 / 24%);
+  border-radius: 10px;
+  padding: 8px 0;
+}
+
+svg {
+  fill: #fff;
+  max-width: 80px;
+}
+
+.hide {
+  display: none;
+}
