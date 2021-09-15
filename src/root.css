@@ -1,0 +1,35 @@
+:root {
+  /*********** Color Variables *************************/
+  --main-color: #3390ec;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --darkGrey-color: #212121;
+  --bg-color: #0f0f0f;
+  --error-color: red;
+  --purple-color: #8774e1;
+  --muteGrey-color: #707579;
+  --notifyGreen: #0ac630;
+  --closeIcon-bg-color: #8774e1;
+  --hover-bg-color: #2b2b2b;
+  --message-color: #a0a0a0;
+
+  /************ Typography Variables ******************/
+
+  --size-micro: 0.625rem; /* 10px */
+  --size-smallest: 0.75rem; /* 12px */
+  --size-smaller: 0.875rem; /* 14px */
+  --size-small: 1rem; /* 16px */
+  --size-base: 1.25rem; /* 20px */
+  --size-large: 1.5625rem; /* 25px */
+  --size-large-responsive: 1.875rem; /* 35px */
+  --size-larger: 3.125rem; /* 50px */
+  --size-largest: 4.375rem; /* 70px */
+  --size-jumbo: 7.5rem; /* 90px */
+
+  --thickness-light: 300;
+  --thickness-regular: 400;
+  --thickness-medium: 500;
+  --thickness-semi-bold: 600;
+  --thickness-bold: 700;
+  --thickness-extra-bold: 900;
+}
