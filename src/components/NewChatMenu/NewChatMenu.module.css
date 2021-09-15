@@ -1,0 +1,39 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 29%;
+}
+
+.container {
+  position: absolute;
+  width: 230px;
+  right: 15px;
+  top: -272px;
+  padding: 13px 0px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 8px 1px rgb(0 0 0 / 24%);
+  background-color: var(--darkGrey-color);
+}
+
+.hide {
+  display: none;
+}
+
+.NewChatMenuBtn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--closeIcon-bg-color);
+}
+.text {
+  width: 80%;
+  color: white;
+  font-weight: var(--thickness-semi-bold);
+  text-align: left;
+  padding-left: var(--size-large-responsive);
+}
