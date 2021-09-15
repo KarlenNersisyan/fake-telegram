@@ -1,0 +1,40 @@
+.checkbox {
+  width: 40px;
+  height: 18px;
+  background: var(--muteGrey-color);
+  border-radius: 15px;
+  position: relative;
+  transition: 300ms;
+  display: inline-block;
+  margin: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.round {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--darkGrey-color);
+  border: 2px solid var(--muteGrey-color);
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  display: inline-block;
+  transition: 300ms;
+}
+
+.activeRound {
+  left: 29px;
+  border: 2px solid var(--purple-color);
+}
+
+.activeCheckbox {
+  background: var(--purple-color);
+}
