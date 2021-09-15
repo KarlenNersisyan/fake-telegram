@@ -1,0 +1,24 @@
+.search {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--muteGrey-color);
+  border-color: #2f2f2f;
+  border-radius: 30px;
+  padding: 10px 10px 10px 40px;
+  outline: none;
+  color: #fff;
+  font-weight: var(--thickness-medium);
+  transition: 0.3s;
+}
+
+.searchBox {
+  position: relative;
+  width: 100%;
+}
+
+.searchIcon {
+  position: absolute;
+  max-width: 20px;
+  top: 10px;
+  left: 12px;
+}
