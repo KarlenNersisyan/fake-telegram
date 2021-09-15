@@ -1,0 +1,30 @@
+.NewChatMenuRow {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.NewChatMenuRow:hover {
+  background-color: var(--hover-bg-color);
+  cursor: pointer;
+}
+
+.icon {
+  width: 20%;
+  padding-left: var(--size-base);
+}
+
+.text {
+  color: #fff;
+  font-weight: var(--thickness-semi-bold);
+  width: 68%;
+}
+
+.checkBox {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
