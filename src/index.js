@@ -1,14 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import { App } from "./App";
+import { ProvideAuth } from "./hooks/useAuth.hook";
+import reportWebVitals from "./reportWebVitals";
+
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ProvideAuth>
+      <Router>
+        <App />
+      </Router>
+    </ProvideAuth>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
